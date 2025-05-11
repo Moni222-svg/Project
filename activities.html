@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Things to Do in Giza</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #222;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #c0931b;
+      margin-bottom: 10px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .team-box {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+      }
+      section {
+        padding: 20px 10px;
+      }
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+</style>
+</head>
+<body>
+<header>
+  <h1>Welcome to Giza, Egypt</h1>
+  <p>Home of the Great Pyramids and Ancient Wonders</p>
+</header>
+<nav>
+  <a href="pyramids.html" target="_blank">Pyramids</a>
+  <a href="activities.html" target="_blank">Activities</a>
+  <a href="travel.html" target="_blank">Travel Info</a>
+  <a href="contact.html" target="_blank">Contact</a>
+</nav>
+
+<section>
+  <h2>Things to Do</h2>
+  <ul>
+    <li>Ride a camel across the desert at sunset</li>
+    <li>Take a guided tour of ancient tombs and temples</li>
+    <li>Experience sound and light shows at the pyramids</li>
+    <li>Shop for souvenirs at the local bazaars</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Giza Egypt Tourism. All rights reserved.</p>
+</footer>
+</body>
+</html>
